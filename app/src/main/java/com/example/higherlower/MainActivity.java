@@ -128,7 +128,7 @@ public class MainActivity extends AppCompatActivity {
             }
             Snackbar.make(v, "You win!", Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show();
-        } else if(currentScore == previousNumber) {
+        } else if(currentNumber == previousNumber) {
             Snackbar.make(v, "It's a draw", Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show();
         } else {
